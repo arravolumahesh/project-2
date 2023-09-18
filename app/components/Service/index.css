@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@media (min-width: 1200px) {
+    .service-box{
+        width:1440px; 
+        height:800px;     
+        background:"#fff";
+    }
+    .service-box-1{
+        display:"flex";
+        flex-direction:"column";
+        justify-content:"center";
+        margin-top: 30px;
+    }
+    .service-heading{
+        color:" #232073";
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        font-style:"normal";
+        font-weight:600px;
+        line-height:45px;
+    }
+    .secure-heading{
+        color:" #000";
+        font-family:"Poppins"; 
+        font-size:32px;
+        text-align:"center";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:45px;
+    }
+    .investing-heading{
+        color:"#0D0D0D";
+        font-family:"Poppins";
+        font-size:16px;
+        text-align:"center";
+        font-style:"normal";
+        font-weight:400px;
+        line-height:45px;
+    }
+    .image-container{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .embed-container{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        margin-left: 95px;
+        margin-top: 60px;
+    }
+    .frame-video{
+        width: 480px;
+        height: 360px;
+        margin-left: 60px;
+    }
+    .Heading-1{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:32px;
+        font-style:"normal";
+        font-weight:600px;
+        line-height:45px;
+        text-transform:"capitalize";
+        width:458px;
+        padding-left: 20px;
+    }
+    .Heading-2{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .Heading-3{
+        color:"#000"; 
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:300px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:487px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .trend-button{
+        width: 235px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #D92365;
+        color: #F2F2F2;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px; /* 183.333% */
+        text-transform: capitalize;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .service-box{
+            width:1440px; 
+            height:800px;     
+            background:"#fff";
+        }
+        .service-box-1{
+            display:"flex";
+            flex-direction:"column";
+            justify-content:"center";
+            margin-top: 30px;
+        }
+        .service-heading{
+            color:" #232073";
+            font-family:"Poppins";
+            font-size:24px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:600px;
+            line-height:45px;
+        }
+        .secure-heading{
+            color:" #000";
+            font-family:"Poppins"; 
+            font-size:32px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:700px;
+            line-height:45px;
+        }
+        .investing-heading{
+            color:"#0D0D0D";
+            font-family:"Poppins";
+            font-size:16px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:400px;
+            line-height:45px;
+        }
+        .image-container{
+            display: flex;
+            justify-content:space-around;
+            margin-top: 20px;
+            margin-left: 120px;
+            padding: 10px;
+        }
+        .embed-container{
+            display: flex;
+            margin-left: 95px;
+            margin-top: 60px;
+        }
+        .frame-video{
+            width: 600px;
+            height: 350px;
+            margin-left: 120px;
+        }
+        .Heading-1{
+            color:"#000";
+            font-family:"Poppins";
+            font-size:32px;
+            font-style:"normal";
+            font-weight:600px;
+            line-height:45px;
+            text-transform:"capitalize";
+            width:458px;
+            padding-left: 20px;
+        }
+        .Heading-2{
+            color:"#000";
+            font-family:"Poppins";
+            font-size:16px;
+            font-style:"normal";
+            font-weight:500px;
+            line-height:31px;
+            text-transform:"capitalize";
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+        .Heading-3{
+            color:"#000"; 
+            font-family:"Poppins";
+            font-size:16px;
+            font-style:"normal";
+            font-weight:300px;
+            line-height:31px;
+            text-transform:"capitalize";
+            width:487px;
+            padding-left: 20px;
+            padding-top: 15px;
+        }
+        .trend-button{
+            width: 235px;
+            height: 56px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            background: #D92365;
+            color: #F2F2F2;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 44px; 
+            text-transform: capitalize;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+    }
+    @media (min-width: 576px) and (max-width: 991.98px) {
+        .service-box{
+            width:1440px; 
+            height:800px;     
+            background:"#fff";
+        }
+        .service-box-1{
+            display:"flex";
+            flex-direction:"column";
+            justify-content:"center";
+            margin-top: 30px;
+        }
+        .service-heading{
+            color:" #232073";
+            font-family:"Poppins";
+            font-size:20px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:600px;
+            line-height:45px;
+        }
+        .secure-heading{
+            color:" #000";
+            font-family:"Poppins"; 
+            font-size:28px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:700px;
+            line-height:45px;
+        }
+        .investing-heading{
+            color:"#0D0D0D";
+            font-family:"Poppins";
+            font-size:14px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:400px;
+            line-height:45px;
+        }
+        .image-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 120px;
+            padding: 10px;
+        }
+        .embed-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 120px;
+            margin-top: 60px;
+        }
+        .frame-video{
+            width: 600px;
+            height: 350px;
+            margin-left: 20px;
+        }
+        .Heading-1{
+            color:"#000";
+            font-family:"Poppins";
+            font-size:32px;
+            font-style:"normal";
+            font-weight:600px;
+            line-height:45px;
+            text-transform:"capitalize";
+            padding-left: 500px;
+            width: 1000px;
+            text-align: center;
+        }
+        .Heading-2{
+            color:"#000";
+            font-family:"Poppins";
+            font-size:16px;
+            font-style:"normal";
+            font-weight:500px;
+            line-height:31px;
+            text-transform:"capitalize";
+            padding-top: 15px;
+            padding-left: 500px;
+            width: 1000px;
+            text-align: center;
+        }
+        .Heading-3{
+            color:"#000"; 
+            font-family:"Poppins";
+            font-size:16px;
+            font-style:"normal";
+            font-weight:300px;
+            line-height:31px;
+            text-transform:"capitalize";
+            width:487px;
+            padding-top: 15px;
+            padding-left: 500px;
+            width: 1000px;
+            text-align: center;
+        }
+        .trend-button{
+            width: 235px;
+            height: 56px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            background: #D92365;
+            color: #F2F2F2;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 44px; 
+            text-transform: capitalize;
+            margin-left: 600px;
+            margin-top: 15px;
+        }
+    }
+    @media (max-width: 575.98px) {
+        .service-box{
+            width:1440px; 
+            height:800px;     
+            background:"#fff";
+        }
+        .service-box-1{
+            display:"flex";
+            flex-direction:"column";
+            justify-content:"center";
+            margin-top: 30px;
+        }
+        .service-heading{
+            color:" #232073";
+            font-family:"Poppins";
+            font-size:20px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:600px;
+            line-height:45px;
+            margin-left: 120px;
+        }
+        .secure-heading{
+            color:" #000";
+            font-family:"Poppins"; 
+            font-size:24px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:700px;
+            line-height:45px;
+            padding-left: 180px;
+        }
+        .service-heading-1{
+            color:"#0D0D0D";
+            font-family:"Poppins";
+            font-size:14px;
+            text-align:"center";
+            font-style:"normal";
+            font-weight:400px;
+            line-height:45px;
+            padding-left: 120px;
+        }
+        .image-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 120px;
+            padding: 10px;
+        }
+        .embed-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 150px;
+            margin-top: 60px;
+        }
+        .frame-video{
+            width: 600px;
+            height: 350px;
+            margin-left: 40px;
+        }
+        .Heading-1{
+            color:"#000";
+            font-family:"Poppins";
+            font-size:26px;
+            font-style:"normal";
+            font-weight:600px;
+            line-height:45px;
+            text-transform:"capitalize";
+            padding-left: 180px;
+            width: 600px;
+            text-align: center;
+        }
+        .Heading-2{
+            color:"#000";
+            font-family:"Poppins";
+            font-size:16px;
+            font-style:"normal";
+            font-weight:500px;
+            line-height:31px;
+            text-transform:"capitalize";
+            padding-top: 15px;
+            padding-left: 180px;
+            width: 600px;
+            text-align: center;
+        }
+        .Heading-3{
+            color:"#000"; 
+            font-family:"Poppins";
+            font-size:16px;
+            font-style:"normal";
+            font-weight:300px;
+            line-height:31px;
+            text-transform:"capitalize";
+            width:487px;
+            padding-top: 15px;
+            padding-left: 180px;
+            width: 600px;
+            text-align: center;
+        }
+        .trend-button{
+            width: 235px;
+            height: 56px;
+            flex-shrink: 0;
+            border-radius: 50px;
+            background: #D92365;
+            color: #F2F2F2;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 44px; 
+            text-transform: capitalize;
+            margin-left: 220px;
+            margin-top: 15px;
+        }
+    }

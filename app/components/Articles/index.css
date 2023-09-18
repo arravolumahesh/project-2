@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.name{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+}
+.coins-image{
+    width: 320px;
+    height: 169px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / cover no-repeat, #D9D9D9;
+}
+.account-btn{
+    width: 170px;
+    height: 49px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D92365;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+    flex-shrink: 0;
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #220d4E;
+    padding-left: 5px;
+}
+@media (min-width: 1200px) {
+    .articles-box{
+        display:flex;
+        flex-direction:column;
+        align-items:"center";
+        margin-top: 120px;
+    }
+    .articles-box-1{
+        display:flex;
+        justify-content:"center";
+        width:1440px;
+        height:160px;
+        flex-shrink:0;
+        background-color:"#220D4E";
+    }
+    .open-acc-heading{
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        color:"#fff";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:33px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .name{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .background-img-1{
+        width: 282.333px;
+        height: 266px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694862409/boy_and_girl_working_on_computer_sxadpk.jpg");
+        background-size: "cover";
+    }
+    .account-btn{
+        width: 170px;
+        height: 49px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #D92365;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+        flex-shrink: 0;
+        color: #F2F2F2;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .articlesHeader-1{
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        color:"#220D4E";
+        font-style:"normal";
+        font-weight:600px;
+        line-height:34px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:92px;
+        height:37.126px;
+        flex-shrink:0;
+        padding-top: 120px;
+    }
+    .update-header{
+        font-family:"Poppins";
+        font-size:32px;
+        text-align:"center";
+        color:"var(--N1, #0A1023)";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:45px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 10px;
+    }
+    .coins-container-1{
+        display:flex;
+        flex-direction:row;
+        justify-content:"center";
+    }
+    .first-paper{
+        width:320px;
+        height:418px;
+        flex-shrink:0;
+        border-radius:3px;
+        background:"#f2f2f2";
+        margin-top: 20px;;
+        display:flex;
+        flex-direction:column;
+        margin-right: 20px;
+    }
+    .coin-imgs{
+        width: 320px;
+        height: 169px;
+        border-radius:3px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / contain no-repeat;
+        background-size: cover;
+    }
+    .investment-btn-1{
+        width: 108px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #D92365;
+        color: #F2F2F2;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; 
+        margin-top: 150px;
+    }
+    .invest-tip-heading{
+        font-family:"Poppins";
+        font-size:16px;
+        text-align:"center";
+        color:"#000";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:30px;
+        flex-shrink:0;
+        padding-top: 20px;
+        width:299px;
+    }
+    .post-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"var(--N2, #2C3655)";
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        display:flex;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 20px;
+    }
+    .publish-date{
+        color:"var(--N2, #2C3655)";
+        font-family:"Poppins";
+        font-size:14px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        padding-left:60px
+    }
+    .paragraph{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"#000";
+        font-style:"normal";
+        font-weight:300px;
+        line-height:"normal";
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:298px;
+        height:63px;
+        flex-shrink:0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .logos-container-1{
+        display: flex;
+        margin:10px;
+    }
+    .read-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:" #220D4E";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:"normal";
+        flex-shrink:0;
+    }
+    .arrow{
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #220d4E;
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .articles-box{
+        display:flex;
+        flex-direction:column;
+        align-items:"center";
+        margin-top: 120px;
+    }
+    .articles-box-1{
+        display:flex;
+        justify-content:"center";
+        width:1440px;
+        height:160px;
+        flex-shrink:0;
+        background-color:"#220D4E";
+    }
+    .open-acc-heading{
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        color:"#fff";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:33px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .name{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .background-img-1{
+        width: 282.333px;
+        height: 266px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694862409/boy_and_girl_working_on_computer_sxadpk.jpg"), lightgray 50% / contain no-repeat;
+        background-size: "cover";
+    }
+    .account-btn{
+        width: 170px;
+        height: 49px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #D92365;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+        flex-shrink: 0;
+        color: #F2F2F2;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .articlesHeader-1{
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        color:"#220D4E";
+        font-style:"normal";
+        font-weight:600px;
+        line-height:34px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:92px;
+        height:37.126px;
+        flex-shrink:0;
+        padding-top: 120px;
+    }
+    .update-header{
+        font-family:"Poppins";
+        font-size:32px;
+        text-align:"center";
+        color:"var(--N1, #0A1023)";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:45px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 10px;
+    }
+    .coins-container-1{
+        display:flex;
+        flex-direction:row;
+        justify-content:"center";
+    }
+    .first-paper{
+        width:320px;
+        height:418px;
+        flex-shrink:0;
+        border-radius:3px;
+        background:"#f2f2f2";
+        margin-top: 20px;;
+        display:flex;
+        flex-direction:column;
+        margin-right: 20px;
+    }
+    .coin-imgs{
+        width: 320px;
+        height: 169px;
+        border-radius:3px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / contain no-repeat;
+        background-size: cover;
+    }
+    .investment-btn-1{
+        width: 108px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #D92365;
+        color: #F2F2F2;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; 
+        margin-top: 150px;
+    }
+    .invest-tip-heading{
+        font-family:"Poppins";
+        font-size:16px;
+        text-align:"center";
+        color:"#000";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:30px;
+        flex-shrink:0;
+        padding-top: 20px;
+        width:299px;
+    }
+    .post-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"var(--N2, #2C3655)";
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        display:flex;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 20px;
+    }
+    .publish-date{
+        color:"var(--N2, #2C3655)";
+        font-family:"Poppins";
+        font-size:14px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        padding-left:60px
+    }
+    .paragraph{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"#000";
+        font-style:"normal";
+        font-weight:300px;
+        line-height:"normal";
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:298px;
+        height:63px;
+        flex-shrink:0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .logos-container-1{
+        display: flex;
+        margin:10px;
+    }
+    .read-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:" #220D4E";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:"normal";
+        flex-shrink:0;
+    }
+    .arrow{
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #220d4E;
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .articles-box{
+        display:flex;
+        flex-direction:column;
+        align-items:"center";
+        margin-top: 120px;
+    }
+    .articles-box-1{
+        display:flex;
+        justify-content: center;
+        width:1440px;
+        height:160px;
+        flex-shrink:0;
+        background-color:"#220D4E";
+    }
+    .open-acc-heading{
+        font-family:"Poppins";
+        font-size:18px;
+        text-align:"center";
+        color:"#fff";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:33px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+    .name{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .background-img-1{
+        width: 282.333px;
+        height: 266px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694862409/boy_and_girl_working_on_computer_sxadpk.jpg"), lightgray 50% / contain no-repeat;
+        background-size: "cover";
+    }
+    .account-btn{
+        width: 170px;
+        height: 49px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #D92365;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+        flex-shrink: 0;
+        color: #F2F2F2;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .articlesHeader-1{
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        color:"#220D4E";
+        font-style:"normal";
+        font-weight:600px;
+        line-height:34px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:92px;
+        height:37.126px;
+        flex-shrink:0;
+        padding-top: 120px;
+    }
+    .update-header{
+        font-family:"Poppins";
+        font-size:32px;
+        text-align:"center";
+        color:"var(--N1, #0A1023)";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:45px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 10px;
+    }
+    .coins-container-1{
+        display:flex;
+        flex-direction:row;
+        flex-direction: column;
+        align-items: center;
+        justify-content:"center";
+    }
+    .first-paper{
+        width:320px;
+        height:418px;
+        flex-shrink:0;
+        border-radius:3px;
+        background:"#f2f2f2";
+        margin-top: 20px;;
+        display:flex;
+        flex-direction:column;
+        margin-right: 20px;
+    }
+    .coin-imgs{
+        width: 320px;
+        height: 169px;
+        border-radius:3px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / contain no-repeat;
+        background-size: cover;
+    }
+    .investment-btn-1{
+        width: 108px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #D92365;
+        color: #F2F2F2;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; 
+        margin-top: 150px;
+    }
+    .invest-tip-heading{
+        font-family:"Poppins";
+        font-size:16px;
+        text-align:"center";
+        color:"#000";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:30px;
+        flex-shrink:0;
+        padding-top: 20px;
+        width:299px;
+    }
+    .post-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"var(--N2, #2C3655)";
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        display:flex;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 20px;
+    }
+    .publish-date{
+        color:"var(--N2, #2C3655)";
+        font-family:"Poppins";
+        font-size:14px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        padding-left:60px
+    }
+    .paragraph{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"#000";
+        font-style:"normal";
+        font-weight:300px;
+        line-height:"normal";
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:298px;
+        height:63px;
+        flex-shrink:0;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .logos-container-1{
+        display: flex;
+        margin:10px;
+    }
+    .read-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:" #220D4E";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:"normal";
+        flex-shrink:0;
+    }
+    .arrow{
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #220d4E;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .articles-box{
+        display:flex;
+        flex-direction:column;
+        align-items:"center";
+        margin-top: 120px;
+    }
+    .articles-box-1{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:800px;
+        height:200px;
+        flex-shrink:0;
+        background-color:"#220D4E";
+    }
+    .open-acc-heading{
+        font-family:"Poppins";
+        font-size:18px;
+        text-align:"center";
+        color:"#fff";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:33px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+    .name{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+    }
+    .background-img-1{
+       display: none;
+    }
+    .account-btn{
+        width: 170px;
+        height: 49px;
+        flex-shrink: 0;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background: #D92365;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+        flex-shrink: 0;
+        color: #F2F2F2;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .articlesHeader-1{
+        font-family:"Poppins";
+        font-size:16px;
+        text-align:"center";
+        color:"#220D4E";
+        font-style:"normal";
+        font-weight:600px;
+        line-height:34px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:92px;
+        height:37.126px;
+        flex-shrink:0;
+        padding-top: 120px;
+    }
+    .update-header{
+        font-family:"Poppins";
+        font-size:24px;
+        text-align:"center";
+        color:"var(--N1, #0A1023)";
+        font-style:"normal";
+        font-weight:700px;
+        line-height:45px;
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 10px;
+    }
+    .coins-container-1{
+        display:flex;
+        flex-direction:row;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-paper{
+        width:400px;
+        height:500px;
+        flex-shrink:0;
+        border-radius:3px;
+        background:"#f2f2f2";
+        margin-top: 20px;;
+        display:flex;
+        flex-direction:column;
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+    .coin-imgs{
+        width: 400px;
+        height: 169px;
+        border-radius:3px;
+        background: url("https://res.cloudinary.com/devj4jofj/image/upload/v1694867131/Rectangle_2619_hpqagh.jpg"), lightgray 50% / contain no-repeat;
+        background-size: cover;
+    }
+    .investment-btn-1{
+        width: 108px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #D92365;
+        color: #F2F2F2;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; 
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .invest-tip-heading{
+        font-family:"Poppins";
+        font-size:16px;
+        text-align:"center";
+        color:"#000";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:30px;
+        flex-shrink:0;
+        padding-top: 20px;
+        width:299px;
+        margin-left: 30px;
+    }
+    .post-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"var(--N2, #2C3655)";
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        display:flex;
+        justify-content:"center";
+        flex-shrink:0;
+        padding-top: 20px;
+    }
+    .publish-date{
+        color:"var(--N2, #2C3655)";
+        font-family:"Poppins";
+        font-size:14px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:22px;
+        padding-left:30px
+    }
+    .paragraph{
+        font-family:"Poppins";
+        font-size:14px;
+        color:"#000";
+        font-style:"normal";
+        font-weight:300px;
+        line-height:"normal";
+        display:flex;
+        flex-direction:column;
+        justify-content:"center";
+        width:298px;
+        height:63px;
+        flex-shrink:0;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .logos-container-1{
+        display: flex;
+        margin:10px;
+    }
+    .read-name{
+        font-family:"Poppins";
+        font-size:14px;
+        color:" #220D4E";
+        font-style:"normal";
+        font-weight:500px;
+        line-height:"normal";
+        flex-shrink:0;
+    }
+    .arrow{
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #220d4E;
+        padding-left: 5px;
+    }
+}

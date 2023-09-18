@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@media (min-width: 1200px) {
+    .trading-box{
+        height:668px; 
+        width:1443px;
+        background:"#232073";
+        display:"flex";
+        background-size: cover;
+    }
+    .headings-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Trading-heading-1{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:32px;
+        font-style:"normal";
+        font-weight:600px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 80px;
+        padding-left: 120px;
+    }
+    .Trading-heading-2{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 20px;
+        padding-left: 120px;
+    }
+    .Trading-heading-3{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    .web-container{
+        display: flex;
+        width: 500px;
+        height: 151px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #FFF;
+        box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.10);
+        margin-top: 10px;
+        margin-left: 220px;
+    }
+    .pc-image{
+        width: 71px;
+        height: 71px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .web-heading-1{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .web-heading-2{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        padding-top: 10px;
+        padding-left: 20px;
+        width:320px;
+    }
+    .mobile-img{
+        width: 488px;
+        height: 560px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .trading-box{
+        height:669px; 
+        width:1443px;
+        background:"#232073";
+        display:"flex";
+    }
+    .headings-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Trading-heading-1{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:32px;
+        font-style:"normal";
+        font-weight:600px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 80px;
+        padding-left: 120px;
+    }
+    .Trading-heading-2{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 20px;
+        padding-left: 120px;
+    }
+    .Trading-heading-3{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    .web-container{
+        display: flex;
+        width: 500px;
+        height: 151px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #FFF;
+        box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.10);
+        margin-top: 10px;
+        margin-left: 220px;
+    }
+    .pc-image{
+        width: 71px;
+        height: 71px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .web-heading-1{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .web-heading-2{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        padding-top: 10px;
+        padding-left: 20px;
+        width:320px;
+    }
+    .mobile-img{
+        width: 488px;
+        height: 560px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .trading-box{
+        height:1400px; 
+        width:1443px;
+        background:"#232073";
+        display:"flex";
+        flex-direction: column;
+        margin-top: 800px;
+    }
+    .headings-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Trading-heading-1{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:32px;
+        font-style:"normal";
+        font-weight:600px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 80px;
+        padding-left: 120px;
+    }
+    .Trading-heading-2{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 20px;
+        padding-left: 120px;
+    }
+    .Trading-heading-3{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    .web-container{
+        display: flex;
+        width: 500px;
+        height: 151px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #FFF;
+        box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.10);
+        margin-top: 10px;
+        margin-left: 220px;
+    }
+    .pc-image{
+        width: 71px;
+        height: 71px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .web-heading-1{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .web-heading-2{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:16px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        padding-top: 10px;
+        padding-left: 20px;
+        width:320px;
+    }
+    .mobile-img{
+        width: 488px;
+        height: 560px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        margin-top: 90px;
+        margin-left: 580px;
+    }
+}
+@media (max-width: 575.98px) {
+    .trading-box{
+        height:1400px; 
+        width:1443px;
+        background:"#232073";
+        display:"flex";
+        flex-direction: column;
+        margin-top: 800px;
+    }
+    .headings-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+    }
+    .Trading-heading-1{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:22px;
+        font-style:"normal";
+        font-weight:600px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 80px;
+        padding-left: 120px;
+    }
+    .Trading-heading-2{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:12px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 20px;
+        padding-left: 120px;
+    }
+    .Trading-heading-3{
+        color:"#fff";
+        font-family:"Poppins";
+        font-size:12px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        text-transform:"capitalize";
+        width:508px;
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+    .web-container{
+        display: flex;
+        width: 300px;
+        height: 120px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        background: #FFF;
+        box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.10);
+        margin-top: 10px;
+    }
+    .pc-image{
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .web-heading-1{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:10px;
+        font-style:"normal";
+        font-weight:500px;
+        line-height:31px;
+        text-transform:"capitalize";
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .web-heading-2{
+        color:"#000";
+        font-family:"Poppins";
+        font-size:10px;
+        font-style:"normal";
+        font-weight:400px;
+        line-height:31px;
+        padding-top: 10px;
+        padding-left: 20px;
+        width:240px;
+    }
+    .mobile-img{
+        display: none;
+    }
+}
